@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* HEADER */
+
+.navbar,
+footer {
+    background-color: #732C02;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #732C02;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover,
+footer {
+    color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+/* MAIN */
+
+.text-colored,
+span {
+    color: #401201;
+}
+
+.sobre,
+#cardapio {
+    background-color: #e6c6ab;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #401201;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #401201;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+/* FOOTER */
+
+footer .container {
+    padding: 10px;
+}
+
+/* MEDIA QUERIE */
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
